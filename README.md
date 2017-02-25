@@ -8,14 +8,14 @@ Create chatbot out of your Facebook chat logs.
 Bot-u is written in the Python3 with usage of scikit-learn's TF-IDF.
 
 ##### Warning!
-**Do not share your bot with anybody unless you are 100% sure that your chat logs doesn't contain any sensitive informations. Chatbot will use lines from your logs as answers, so it can answer with something which you don't want to share publicly. Clean your chat logs, if you want to share your chatbot. I don't have any responsibilities for problems caused by not following this advice.**
+**Do not share your bot with anybody unless you are 100% sure that your chat logs don't contain any sensitive informations. Chatbot will use lines from your logs as answers, so it can answer with something which you don't want to share publicly. Clean your chat logs, if you want to share your chatbot. I don't have any responsibilities for problems caused by not following this advice.**
 
 ## USAGE
 ### Facebook chat logs download
 Facebook allows you to download your whole history of activities. We are interested in the chat logs. Following steps explains you how to get them.
 
 #### 1) Go to settings
-Log into your facebook and go to ``Settings``.
+Log into your Facebook account and go to ``Settings``.
 ![Settings](https://raw.githubusercontent.com/ermrk/Bot-u/images/bot-u-1.png)
 
 #### 2) Get a copy of your Facebook data
@@ -27,7 +27,7 @@ Click on the ``Start My Archive`` button. Confirm your action. Link to your arch
 ![Start archivation](https://raw.githubusercontent.com/ermrk/Bot-u/images/bot-u-3.png)
 
 #### 4) Get link to archive from your email
-You will recieve email with link to your archive after a while. Click on the link in the email.
+You will receive email with link to your archive after a while. Click on the link in the email.
 ![Email link](https://raw.githubusercontent.com/ermrk/Bot-u/images/bot-u-4.png)
 
 #### 5) Download archive
