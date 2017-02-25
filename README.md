@@ -5,7 +5,7 @@ Create chatbot out of your Facebook chat logs.
   - Put them into Bot_U
   - Enjoy immortal copy of yourself
 
-Bot-u is written in the Python3 with usage of scikit-learn's TF-IDF.
+Bot_U is written in the Python3 with usage of scikit-learn's TF-IDF.
 
 ##### Warning!
 **Do not share your bot with anybody unless you are 100% sure that your chat logs don't contain any sensitive informations. Chatbot will use lines from your logs as answers, so it can answer with something which you don't want to share publicly. Clean your chat logs, if you want to share your chatbot. I don't have any responsibilities for problems caused by not following this advice.**
