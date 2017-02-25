@@ -1,4 +1,4 @@
-# Bot-U
+# Bot_U
 Create chatbot out of your Facebook chat logs.
 
   - Download your Facebook chat logs
@@ -41,7 +41,7 @@ Open the downloaded archive. We are interested in the file ``html\messages.htm``
 ##### Friendly remainder
 **You will download files containing your personal informations. Do not share them with anybody!**
 
-### Running Bot-U
+### Running Bot_U
 Copy file ``messages.htm`` into folder of Bot-u (that containing file ``main.py``). 
 
 Install requirements by:
@@ -49,7 +49,7 @@ Install requirements by:
 $ pip install -r requirements.txt
 ```
 
-Run the Bot-u by:
+Run the Bot_U by:
 ```sh
 $ py -3 main.py "John Smith"
 ```
