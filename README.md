@@ -66,4 +66,11 @@ Problem could be, if you have used several names. Choose one of them in such cas
 
 Name is used to parse messages from ``messages.htm`` file correctly. Bot-u will create file data.json containing parsed messages (you can use this file as dataset for your own chatbot running on different technology). You can start chatting with yourself right after message ``"I am ready! Let's chat."``.
 
+#### Possible problems
+  - xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 100, column 0
+    - This is caused by weird characters in ``messages.htm``. The solution is to open this file in the text editor, go to the line causing error (line 100 in our example) and delete all weird characters.
+
+  - xml.etree.ElementTree.ParseError: mismatched tag: line 100, column 0
+    - This is caused by badly formatted tags in ``messages.htm`` (tags not in pair for example). The solution is to open this file in the text editor, go to the line causing error (line 100 in our example) and delete all badly formatted tags.
+
 **Pull requests adding connection to Facebook messenger are welcomed!**
