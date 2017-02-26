@@ -59,6 +59,11 @@ Run the Bot_U by:
 ```sh
 $ py -3 main.py "John Smith"
 ```
-Put your Facebook name instead of ``John Smith``. Name is used to parse messages from ``messages.htm`` file correctly. Bot-u will create file data.json containing parsed messages (you can use this file as dataset for your own chatbot running on different technology). You can start chatting with yourself right after message ``"I am ready! Let's chat."``.
+Put your Facebook name instead of ``John Smith``.  The correct form of your name is the form in the file ``messages.html`` (open it and look there).
+Problem could be, if you have used several names. Choose one of them in such case. 
+
+![Name](https://raw.githubusercontent.com/ermrk/Bot-u/images/bot-u-7.png)
+
+Name is used to parse messages from ``messages.htm`` file correctly. Bot-u will create file data.json containing parsed messages (you can use this file as dataset for your own chatbot running on different technology). You can start chatting with yourself right after message ``"I am ready! Let's chat."``.
 
 **Pull requests adding connection to Facebook messenger are welcomed!**
